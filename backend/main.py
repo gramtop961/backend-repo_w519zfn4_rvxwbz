@@ -32,12 +32,13 @@ async def seed_products():
     if existing:
         return
 
+    # INR pricing tuned for India market
     samples: List[ProductCreate] = [
         # Home Decor
         ProductCreate(
             name="Handwoven Cotton Throw",
             description="Soft, breathable throw with subtle texture for modern living rooms.",
-            price=49.00,
+            price=2499,
             images=[
                 "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -48,7 +49,7 @@ async def seed_products():
         ProductCreate(
             name="Minimalist Ceramic Vase",
             description="Matte stoneware vase for fresh or dried floral arrangements.",
-            price=39.00,
+            price=1899,
             images=[
                 "https://images.unsplash.com/photo-1549187774-b4e9b0445b41?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -60,7 +61,7 @@ async def seed_products():
         ProductCreate(
             name="Acacia Wood Cutting Board",
             description="Durable, knife-friendly board with juice groove.",
-            price=29.00,
+            price=1599,
             images=[
                 "https://images.unsplash.com/photo-1515548212307-6f2b1e3c0f51?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -71,7 +72,7 @@ async def seed_products():
         ProductCreate(
             name="Double‑Wall Glass Mug (2pc)",
             description="Insulated borosilicate mugs for coffee and tea.",
-            price=24.00,
+            price=1299,
             images=[
                 "https://images.unsplash.com/photo-1497636577773-f1231844b336?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -83,7 +84,7 @@ async def seed_products():
         ProductCreate(
             name="Gold‑Tone Huggie Hoops",
             description="Hypoallergenic stainless steel with 18k gold tone finish.",
-            price=19.00,
+            price=799,
             images=[
                 "https://images.unsplash.com/photo-1490114538077-0a7f8cb49891?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -94,7 +95,7 @@ async def seed_products():
         ProductCreate(
             name="Pearl Drop Necklace",
             description="Elegant freshwater‑style pendant on a fine chain.",
-            price=22.00,
+            price=1199,
             images=[
                 "https://images.unsplash.com/photo-1603565816278-c5c9a0a1f9de?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -106,7 +107,7 @@ async def seed_products():
         ProductCreate(
             name="Memory Foam Pet Bed",
             description="Washable cover, non‑slip base, supportive foam.",
-            price=59.00,
+            price=3499,
             images=[
                 "https://images.unsplash.com/photo-1558944351-cf21b4f99f05?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -117,7 +118,7 @@ async def seed_products():
         ProductCreate(
             name="Silicone Slow Feeder Bowl",
             description="Promotes healthier eating pace for dogs and cats.",
-            price=18.00,
+            price=699,
             images=[
                 "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -129,7 +130,7 @@ async def seed_products():
         ProductCreate(
             name="Stainless Steel Water Bottle (750ml)",
             description="Vacuum insulated, keeps drinks cold 24h or hot 12h.",
-            price=27.00,
+            price=1499,
             images=[
                 "https://images.unsplash.com/photo-1592167940413-8d743a6c0f36?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -140,7 +141,7 @@ async def seed_products():
         ProductCreate(
             name="Cork Yoga Block (2pc)",
             description="High‑density natural cork for stability and grip.",
-            price=23.00,
+            price=999,
             images=[
                 "https://images.unsplash.com/photo-1588286840104-8957b019727f?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -152,7 +153,7 @@ async def seed_products():
         ProductCreate(
             name="Wireless Charging Pad",
             description="Qi‑compatible, slim profile with soft‑touch finish.",
-            price=28.00,
+            price=1399,
             images=[
                 "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1200&auto=format&fit=crop",
             ],
@@ -163,7 +164,7 @@ async def seed_products():
         ProductCreate(
             name="Noise‑Isolating Earbuds",
             description="Comfortable fit, balanced sound, inline mic.",
-            price=34.00,
+            price=1999,
             images=[
                 "https://images.unsplash.com/photo-1518443881240-4e00f9b11669?q=80&w=1200&auto=format&fit=crop",
             ],
